@@ -1,0 +1,93 @@
+<!-- random function for 74 pages named page_x.html with x=1..74 
+place this portion of code in the head section of html document -->
+
+<SCRIPT LANGUAGE="JavaScript">
+var howMany = 73;  // max number of items listed below
+var page = new Array(howMany+1);
+
+page[0]="page_1.html";
+page[1]="page_2.html";
+page[2]="page_3.html";
+page[3]="page_4.html";
+page[4]="page_5.html";
+page[5]="page_6.html";
+page[6]="page_7.html";
+page[7]="page_8.html";
+page[8]="page_9.html";
+page[9]="page_10.html";
+page[10]="page_11.html";
+page[11]="page_12.html";
+page[12]="page_13.html";
+page[13]="page_14.html";
+page[14]="page_15.html";
+page[15]="page_16.html";
+page[16]="page_17.html";
+page[17]="page_18.html";
+page[18]="page_19.html";
+page[19]="page_20.html";
+page[20]="page_21.html";
+page[21]="page_22.html";
+page[22]="page_23.html";
+page[23]="page_24.html";
+page[24]="page_25.html";
+page[25]="page_26.html";
+page[26]="page_27.html";
+page[27]="page_28.html";
+page[28]="page_29.html";
+page[29]="page_30.html";
+page[30]="page_31.html";
+page[31]="page_32.html";
+page[32]="page_33.html";
+page[33]="page_34.html";
+page[34]="page_35.html";
+page[35]="page_36.html";
+page[36]="page_37.html";
+page[37]="page_38.html";
+page[38]="page_39.html";
+page[39]="page_40.html";
+page[40]="page_41.html";
+page[41]="page_42.html";
+page[42]="page_43.html";
+page[43]="page_44.html";
+page[44]="page_45.html";
+page[45]="page_46.html";
+page[46]="page_47.html";
+page[47]="page_48.html";
+page[48]="page_49.html";
+page[49]="page_50.html";
+page[50]="page_51.html";
+page[51]="page_52.html";
+page[52]="page_53.html";
+page[53]="page_54.html";
+page[54]="page_55.html";
+page[55]="page_56.html";
+page[56]="page_57.html";
+page[57]="page_58.html";
+page[58]="page_59.html";
+page[59]="page_60.html";
+page[60]="page_61.html";
+page[61]="page_62.html";
+page[62]="page_63.html";
+page[63]="page_64.html";
+page[64]="page_65.html";
+page[65]="page_66.html";
+page[66]="page_67.html";
+page[67]="page_68.html";
+page[68]="page_69.html";
+page[69]="page_70.html";
+page[70]="page_71.html";
+page[71]="page_72.html";
+page[72]="page_73.html";
+page[73]="page_74.html";
+function rndnumber(){
+var randscript = -1;
+while (randscript < 0 || randscript > howMany || isNaN(randscript)){
+randscript = parseInt(Math.random()*(howMany+1));
+}
+return randscript;
+}
+quo = rndnumber();
+quox = page[quo];
+window.location=(quox);
+// End -->
+</SCRIPT>
